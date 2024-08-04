@@ -1,0 +1,137 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    z-index: 1000;
+}
+
+#header-img {
+    height: 50px;
+}
+
+#nav-bar {
+    display: flex;
+}
+
+.nav-link {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Centering the iframe */
+#video {
+    display: block;
+    margin: 20px auto;
+}
+
+/* Header and Content Styles */
+h1, h2, h4 {
+    margin-top: 0;
+}
+
+#productName {
+    text-align: center;
+}
+
+#price {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.itemprice {
+    font-size: 2em;
+    color: #333;
+}
+
+#Description {
+    margin-top: 20px;
+}
+
+#specs {
+    margin-top: 20px;
+}
+
+#specs ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#specs li {
+    margin: 5px 0;
+}
+
+form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form label {
+    margin-bottom: 10px;
+}
+
+form input[type="email"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    max-width: 400px;
+}
+
+form input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #555;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    #header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    #nav-bar {
+        margin-top: 10px;
+        flex-direction: column;
+    }
+
+    .nav-link {
+        margin: 5px 0;
+    }
+}

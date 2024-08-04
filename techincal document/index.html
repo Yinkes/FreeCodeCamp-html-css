@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technical Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main id="main-doc">
+        <!-- Section for VSCode Installation -->
+        <section class="main-section" id="Installation">
+            <header>Installation</header>
+            <p>To install Visual Studio Code (VsCode), follow the steps below for your operating system.</p>
+
+            <ul>
+                <li>1. Navigate to the download page <a href="https://code.visualstudio.com/download">here</a></li>
+                <li>2. Download the installer for your operating system</li>
+                <li>3. Run the installer and follow the on-screen instructions</li>
+                <li>4. Launch VsCode and set up your development environment</li>
+            </ul>
+
+            <h3>How to Install for Windows</h3>
+            <p>1. Download the Windows installer from the VsCode download page.</p>
+            <p>2. Run the downloaded `.exe` file.</p>
+            <p>3. Follow the setup wizard instructions to install VsCode.</p>
+            <p>4. Once installed, launch VsCode from the Start menu.</p>
+
+            <h3>How to Install for Linux</h3>
+            <p>Step 1: Open your terminal.</p>
+            <code>sudo apt update</code>
+            <p>Step 2: Install the necessary packages.</p>
+            <code>sudo apt install software-properties-common apt-transport-https wget</code>
+            <p>Step 3: Import the Microsoft GPG key.</p>
+            <code>wget -qO- https://packages.microsoft.com/keys/microsoft.asc | sudo apt-key add -</code>
+            <p>Step 4: Add the VsCode repository.</p>
+            <code>sudo sh -c 'echo "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main" > /etc/apt/sources.list.d/vscode.list'</code>
+            <p>Step 5: Install VsCode.</p>
+            <code>sudo apt update && sudo apt install code</code>
+
+            <h3>How to Install for Mac</h3>
+            <p>1. Download the macOS installer from the VsCode download page.</p>
+            <p>2. Open the `.zip` file and drag the VsCode application to your Applications folder.</p>
+            <p>3. Launch VsCode from the Applications folder.</p>
+        </section>
+
+        <!-- Section for Supported Languages -->
+        <section class="main-section" id="languages">
+            <header>Languages</header>
+            <p>Visual Studio Code supports a wide range of programming languages. Below is a list of some commonly used languages:</p>
+            <ul>
+                <li>JavaScript</li>
+                <li>Python</li>
+                <li>Java</li>
+                <li>C++</li>
+                <li>C#</li>
+                <li>PHP</li>
+                <li>Ruby</li>
+                <li>Go</li>
+                <li>TypeScript</li>
+                <li>HTML/CSS</li>
+            </ul>
+            <p>VsCode's extensive language support is achieved through extensions, which allow for syntax highlighting, code linting, and more.</p>
+        </section>
+
+        <!-- Section for Personalizing VSCode -->
+        <section class="main-section" id="Personalize">
+            <header>Personalize</header>
+            <p>Personalizing your VsCode environment can help improve productivity and comfort. Here are a few ways to customize your editor:</p>
+            <p>1. **Change the Theme:** Go to the Command Palette (Ctrl+Shift+P) and search for "Preferences: Color Theme" to choose a different color theme for your editor.</p>
+            <p>2. **Install Extensions:** Explore the Extensions view (Ctrl+Shift+X) to find and install extensions that add functionality or modify the appearance of VsCode.</p>
+            
+        </section>
+
+        <!-- Section for VSCode Features (New Section) -->
+        <section class="main-section" id="Features">
+            <header>Features</header>
+            <p>Visual Studio Code offers a variety of features that enhance coding efficiency and development workflows:</p>
+            <p>1. **Integrated Terminal:** Access a built-in terminal directly within the editor, allowing you to run commands without leaving VsCode.</p>
+            <p>2. **Debugging:** Built-in debugging tools help you set breakpoints, inspect variables, and step through code to troubleshoot issues.</p>
+            <p>3. **Git Integration:** VsCode includes built-in Git support for version control, making it easy to manage code repositories and commits.</p>
+            
+        </section>
+
+        <!-- Section for Extensions -->
+        <section class="main-section" id="Extensions">
+            <header>Extensions</header>
+            <p>Extensions are essential for enhancing VsCode's functionality and tailoring it to your development needs. They provide features like code linting, formatting, and additional language support.</p>
+            <ul>
+                <li>1. **Prettier - Code Formatter**: Automatically formats code to ensure consistent styling.</li>
+                <li>2. **ESLint**: Lints JavaScript and TypeScript code to identify and fix issues.</li>
+                <li>3. **Live Server**: Launches a development server with live reload for static and dynamic pages.</li>
+                <li>4. **GitLens**: Provides advanced Git integration with features like blame annotations and repository insights.</li>
+                <li>5. **Bracket Pair Colorizer**: Colors matching brackets for better readability.</li>
+                <li>6. **Python**: Adds support for Python development, including linting and debugging.</li>
+                <li>7. **Debugger for Chrome**: Debug JavaScript code running in Google Chrome directly from VsCode.</li>
+                <li>8. **Vetur**: Enhances Vue.js development with features like syntax highlighting and auto-completion.</li>
+                <li>9. **Jest**: Provides integration with the Jest testing framework for running and debugging tests.</li>
+                <li>10. **Docker**: Adds support for working with Docker containers and images.</li>
+            </ul>
+        </section>
+
+        <!-- Navigation Bar -->
+        <nav id="navbar">
+            <header>VsCode Documentation</header>
+            <a href="#Installation" class="nav-link" id="nav-link">Installation</a>
+            <a href="#languages" class="nav-link" id="nav-link">Languages</a>
+            <a href="#Personalize" class="nav-link" id="nav-link">Personalize</a>
+            <a href="#Features" class="nav-link" id="nav-link">Features</a>
+            <a href="#Extensions" class="nav-link" id="nav-link">Extensions</a>
+        </nav>
+    </main>
+</body> 
+</html>

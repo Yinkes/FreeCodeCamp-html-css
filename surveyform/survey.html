@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1920px, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="headbox">
+<h1 id="title">How American Are You</h1>
+<br>
+<p id="description">Survey to gauge how closely you align with American culture.</p>
+</div>
+<form action="" id="survey-form">
+    <label for="text" id="name-label">Name:</label>
+    <input type="text" id="name" placeholder=" Bob" required>
+    <br>
+    <label for="email" id="email-label" > Email:</label>
+    <input type="email" id="email" required placeholder="Email@gmail.com">
+    <br>
+    <label for="number" id="number-label">   Age:</label>
+    <input type="number" id="number" required placeholder=" 21" min="16" max="100">
+    <br><br>
+    <label for="dropdown">Gender:</label>
+    <select  name="" id="dropdown" >
+        <option value="option1">Male</option>
+        <option value="option2">Female</option>
+    </select>
+    <br><br>
+
+
+    <!--Radio Buttons-->
+<fieldset>
+    <legend>What Food is The Best</legend>
+    <label for="">
+        <input type="radio" name="preference" value="preference1">Pizza 
+    </label>
+    <br>
+    <label for="">
+        <input type="radio" name="preference" value="preference2">Burger
+    </label>
+    <br>
+    <label for="">
+        <input type="radio" name="preference" value="preference3">Steak 
+    </label>
+</fieldset>
+
+<br><br>
+    <!-- -->
+<fieldset id="">
+    <legend>How American Are You?:</legend>
+    <label for="" id="checkBoxLabel">
+        <input type="checkbox" name="option" value="option1"  id="checkboxs"> Im obese
+    </label>
+    <br>
+    <label for="" id="checkBoxLabel" >
+        <input type="checkbox" name="option2" value="option2"  id="checkboxs">I own guns
+    </label>
+    <br>
+    <label for="" id="checkBoxLabel" >
+        <input type="checkbox" name="option3" value="option3"  id="checkboxs">I drive a truck 
+    </label>
+    <br>
+    <label for="" id="checkBoxLabel" >
+        <input type="checkbox" name="option4" value="option4" id="checkboxs">I drink beer in the morning
+    </label>
+</fieldset>
+<br><br>
+<label for="comments">Explain how American You Are</label>
+<br>
+<textarea name="comments" id="comments" ></textarea>
+<button id="submit" type="submit">Submit</button>
+</form>
+    
+
+
+</body>
+</html>

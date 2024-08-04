@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Husqvarna 501FE Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header id="header"> 
+        <img src="logo.png" id="header-img" alt="Husqvarna Logo">
+        <nav id="nav-bar">
+            <a href="#price" class="nav-link">Price</a>
+            <a href="#specs" class="nav-link">Specs</a>
+            <a href="#Description" class="nav-link">Description</a>
+        </nav>
+    </header>
+
+    <main>
+        <h1 id="productName">Husqvarna 501FE</h1>
+        <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/lIhCrqAk6SM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+        <div id="price">
+            <h1 class="itemprice">MSRP: $10,000</h1>
+        </div>
+
+        <div id="Description">
+            <h2>About the Husqvarna 501FE</h2>
+            <p>The Husqvarna 501FE is a high-performance off-road motorcycle designed for enthusiasts who demand the best. It features a powerful engine, advanced suspension, and a lightweight frame for superior handling and comfort. With its robust build, the 501FE is perfect for tackling tough terrains and long rides. Its modern design includes ergonomic controls and advanced technology for an enhanced riding experience.</p>
+            <h2>Key Features</h2>
+            <p>The 501FE comes equipped with state-of-the-art features, including a fuel-injected 4-stroke engine, a fully adjustable suspension system, and a durable aluminum frame. The bike is also designed with rider comfort in mind, featuring an adjustable seat and advanced electronic controls. Whether you're a seasoned rider or a newcomer, the 501FE offers exceptional performance and reliability.</p>
+        </div>
+
+        <div id="specs">
+            <h4>Specs</h4>
+            <ul>
+                <li>Top Speed: 120 mph</li>
+                <li>0-60 mph: 3.5 seconds</li>
+                <li>Engine Displacement: 501 cc</li>
+                <li>Torque: 48 ft-lbs</li>
+                <li>Seat Height: 37 inches</li>
+            </ul>
+            <p>The Husqvarna 501FE's specs highlight its capabilities and performance. It offers impressive acceleration and speed, making it a top choice for competitive off-road riding. The engine displacement provides ample power for tackling challenging trails, while the torque ensures robust performance. The seat height is adjustable, catering to different rider preferences.</p>
+        </div>
+
+        <form action="https://www.freecodecamp.com/email-submit" id="form" method="POST">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Email@example.com" required>
+            <input type="submit" id="submit" value="SUBMIT">
+        </form>
+    </main>
+</body>
+</html>
